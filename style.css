@@ -153,7 +153,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid #000;
-    padding: 40px 20px;
+    padding: 40px 60px;
   }
 
   .img {
@@ -248,5 +248,40 @@
   .img {
     width: 660px;
     height: 560px;
+  }
+}
+
+/* style for cabalages PAGE */
+
+.cabalages-page {
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+    gap: 90px;
+  }
+  .text-first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 116px;
+  }
+  .image-container {
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 40px 60px;
+  }
+
+  .img {
+    width: 811px;
+    height: 770px;
   }
 }
