@@ -1,24 +1,82 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+
+/* same stYles */
+
+.link {
+  font-size: 36px;
+  font-weight: 500;
+  text-decoration: underline;
+  font-style: italic;
+  color: #0056d7;
+}
+
+.link:hover {
+  color: #0f4a85;
+}
+
+.section {
+  padding: 60px;
 }
 
 .header {
   background: #e4e4e4;
   width: 100%;
   height: 190px;
-  padding: 20px;
-}
-
-.header {
+  padding: 20px 60px;
   display: flex;
   align-items: center;
 
- 
   .title {
-    font-size: 40px;
+    font-size: 96px;
+    line-height: 116px;
   }
 }
 
+.main {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+/* FIRST PAGE STYLES */
+
 .first-page {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .title {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .img {
+    width: 620px;
+    height: 620px;
+  }
+  .list-title {
+    font-size: 24px;
+    padding: 30px 0 15px 0;
+    font-weight: 400;
+  }
+
+  .box-container {
+    padding: 40px 0;
+  }
+  .text-container {
+    padding: 50px 20px;
+    height: 100%;
+    background: #e4e4e4;
+    border-radius: 40px;
+  }
+
+  .list-container {
+    padding-left: 20px;
+  }
+
+  .item-text {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
 }
